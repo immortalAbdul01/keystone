@@ -5,7 +5,6 @@ export default config({
   db: {
     provider: 'sqlite',
     url: 'file:./app.db',
-    useMigrations: true,
   },
   ui: { isDisabled: true },
   lists: {
